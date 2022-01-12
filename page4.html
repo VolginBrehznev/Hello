@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page 4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -17,48 +20,38 @@
                 <h1> Pour aller plus loin... </h1>
                 <h2> Initiation à la base de données </h2>
                 <h3> La Catégorie Objet et Arme</h3>
-                <div class="col-lg-6 col-md-6 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-xs-12">
                     <p>
-                        Nous allons désormais aller plus loin en découvrant l'outil "base de données", cet outil permet
-                        de modifier tout le contenu interne de votre jeu. Nous avons vu précedemment l'emplacement de
-                        l'outil, une fois que vous avez cliqué dessus vous devriez arriver sur une page similaire à
-                        celle-ci.
-                        <img src="img/24.png">
-                        Une fois cela fait, vous devriez voir un "S", il marque le point d'apparition de votre
-                        personnage.
-                        Allons désormais dans du concret, cliquer sur un tile puis sur "Nouvel événement...". Vous
-                        devriez
-                        arriver sur cette interface.
-                        <img src="img/25.png">
-                        L'interface à l'air compliquée, et elle l'est ! Alors accrochez-vous. On peut découper cette
-                        interface en 3 parties, d'abord la plus grande, celle de droite permet d'effectuer des
-                        commandes, si
-                        on double clique dessus, ceci apparaît.
-                        <img src="img/26.png">
-                        Pour notre exemple nous allons créer la commande "Afficher un message...". Dans la boîte de
-                        dialogue
-                        nous allons écrire "Bonjour voyageur ! Belle journée n'est-ce pas ?". Le but de cet événement
-                        est de
-                        créer un personnage non-joueur, abrégé en PNJ (NPC en anglais) qui à chaque fois que le joueur
-                        interagira avec ce PNJ, la boîte de dialogue s'ouvrira avec le message qui s'affichera dedans.
-                        <img src="img/27.png">
-                        Maintenant, nous allons créer une deuxième carte que nous allons nommer "Bois", cette fois-ci
-                        avec
-                        un tileset différents, afin de vous montrer les différentes possibilités qu'offre ce logiciel.
-                        <img src="img/28.png">
-                        Pour l'exemple nous allons choisir le tileset <strong>"002: Bois"</strong> et nous allons aussi
-                        changer la taille de
-                        la carte pour mettre 25 en hauteur et 25 en largeur. Après avoir indiqué vos paramètres et avoir
-                        accepté, vous devriez avoir quelque chose de similaire.
-                        <img src="img/29.png">
-                        Nous allons donc refaire les mêmes étapes que nous avons vu précédemment, d'abord avec la couche
-                        1
-                        il nous fait un sol, puis avec la couche 2 ajouter du relief avec des arbres et la couche 3 pour
-                        les
-                        finitions. (Pour remplir une grande surface rapidement on peut utiliser l'outil rectangle vu à
-                        la
-                        page précédente.)
-                        Après avoir décoré notre carte nous obtenons ce résultat.
+                    Nous allons désormais aller plus loin en découvrant l'outil <strong>"base de données"</strong>, cet outil permet
+                    de modifier tout le contenu interne de votre jeu. Nous avons vu précedemment l'emplacement de
+                    l'outil, une fois que vous avez cliqué dessus vous devriez arriver sur une page similaire à
+                    celle-ci.
+                    <div><img src="img/24.png"></div>
+                    Cliquez ensuite sur l'onglet <strong>"Objet"</strong> en haut.
+                    Nous allons prendre l'objet <strong>"003: Mega Potion"</strong> et l'analyser, comme vous pouvez le voir cette potion
+                    possède ses propres caractéristiques, elle coûte 450 pièces d'or dans le commerce, à un taux de
+                    réussite de 100% et soigne son utilisateur de 9999 points de vie.
+                    <div><img src="img/25.png"></div>
+                    Prenons maintenant l'objet <strong>"012: Remède"</strong>, nous pouvons voir à droite dans la colonne <strong>"Statuts
+                    infligés :"</strong> que les cases poison, cécité, silence, confusion, sommeil et paralysie sont précédés
+                    d'un symbole négatif, cela signifie que si votre joueur était porteur d'un de ces statuts, il lui
+                    sera retiré.
+                    <div><img src="img/26.png"></div>
+                    Rendons nous désormais dans la catégorie <strong>"Armes"</strong>.
+                    <div><img src="img/27.png"></div>
+                    Il existe des armes prédéfinis dans le logiciel, cependant nous pouvons en rajouter si nous le
+                    désirons, pour cela il faut se rendre en bas à gauche et cliquer sur <strong>"Modifier maximum..."</strong>,
+                    augmentez la variable quantité à 33 puis sélectionnez <strong>"OK"</strong>. Nous venons de créer un nouvel objet.
+                    <div><img src="img/28.png"></div>
+                    Pour l'exemple nous allons créer une épée légendaire. Nous cliquons donc sur l'objet créé puis
+                    remplissons les caractéristiques que nous voulons lui donner.
+                    <div><img src="img/29.png"></div>
+                    En l'occurence nous venons de créer notre nouvel objet, que nous avons appelé "Epée Légendaire" qui
+                    a pour description <strong>"Arme unique et légendaire"</strong>, qui se vend dans le commerce pour 100 000 pièces
+                    d'or, qui fait 300 points de dégats et qui possède les attributs Lumière, Anti Mort-Vivant, Anti
+                    Reptile, Anti Aquatique, Anti Bête, Anti Orque, Anti Volatile, Anti Démon et Anti Ange.
+                    <br>
+                    <strong>Dans le prochain tutoriel nous verrons comment utiliser l'éditeur de script avec le langage Ruby.</strong>
                     </p>
                 </div>
             </div>
